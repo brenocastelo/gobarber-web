@@ -12,6 +12,11 @@ export const Content = styled.div`
   max-width: 900px;
   margin: 0 auto;
 
+  aside {
+    display: flex;
+    align-items: center;
+  }
+
   nav {
     display: flex;
     align-items: center;
@@ -31,6 +36,9 @@ export const Content = styled.div`
 
 export const Profile = styled.div`
   display: flex;
+  margin-left: 20px;
+  padding-left: 20px;
+  border-left: 1px solid #eee;
 
   div {
     text-align: right;
